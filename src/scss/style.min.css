@@ -1,0 +1,1 @@
+@import "reset.css";*{box-sizing:border-box}body{width:100%;font-family:Montserrat,sans-serif}.container{width:1200px;min-width:320px;padding:0 10px;margin:0 auto}@media (max-width:1200px){.container{width:100%}}
