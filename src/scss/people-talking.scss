@@ -1,0 +1,156 @@
+.people-talking {
+  background-image: url("../dist/images/people-talking-bg 1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.people-talking-title {
+  color: $primaryColor;
+  padding: 108px 0 82px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 50px;
+  text-align: center;
+
+  @media (max-width: 992px) {
+    font-size: 42px;
+    line-height: 44px;
+    padding: 87px 0 88px 0;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 36px;
+    line-height: 48px;
+    padding: 67px 0 53px 0;
+  }
+}
+
+.people-talking-grid {
+  display: grid;
+  grid-template-rows: 152px 152px;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 110px;
+  column-gap: 125px;
+  margin-bottom: 118px;
+
+  @media (max-width: 992px) {
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 55px;
+    column-gap: 80px;
+    margin-bottom: 68px;
+  }
+
+  @media (max-width: 560px) {
+    column-gap: 10px;
+  }
+
+  @media (max-width: 480px) {
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: 1fr;
+    row-gap: 41px;
+  }
+}
+
+.people-talking-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  @media (max-width: 480px) {
+    padding: 0 15px;
+  }
+
+  .item-text {
+    color: $primaryColor;
+    font-family: Lato, sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .item-img-1 {
+    width: 165px;
+    height: 43px;
+  }
+
+  .item-img-2 {
+    width: 148px;
+    height: 50px;
+  }
+
+  .item-img-3 {
+    width: 64px;
+    height: 64px;
+  }
+
+  .item-img-4 {
+    width: 225px;
+    height: 24px;
+  }
+
+  .item-img-5 {
+    width: 166px;
+    height: 34px;
+  }
+
+  .item-img-6 {
+    width: 108px;
+    height: 34px;
+  }
+}
+
+.people-talking-bottom-text {
+  position: relative;
+  width: 887px;
+  color: #A291A5;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  font-family: Lato, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+
+  @media (max-width: 1200px) {
+    width: 730px;
+  }
+
+  @media (max-width: 760px) {
+    width: 460px;
+  }
+
+  @media (max-width: 480px) {
+    width: 252px;
+  }
+
+  &::after {
+    position: absolute;
+    content: '';
+    width: 780px;
+    height: 2px;
+    left: 53.5px;
+    bottom: 32px;
+    background-color: #645766;
+
+    @media (max-width: 1200px) {
+      width: 666px;
+      left: 32px;
+    }
+
+    @media (max-width: 760px) {
+      width: 420px;
+      left: 20px;
+    }
+
+    @media (max-width: 480px) {
+      width: 230px;
+      left: 11px;
+    }
+  }
+}
