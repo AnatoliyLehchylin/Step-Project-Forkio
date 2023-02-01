@@ -6,7 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/sigibambarbiev/step-project-forkio-lehchylin-retyvykh.git"
+  },
+  "author": "A.Lehchylin, K.Retyvykh",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.27.11",
