@@ -511,4 +511,95 @@ body {
   }
 }
 
+.revolutionary-editor__title {
+  margin-top: 129px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 54px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #635C73;
+}
+@media (max-width: 992px) {
+  .revolutionary-editor__title {
+    font-size: 42px;
+    line-height: 42px;
+  }
+}
+@media (max-width: 480px) {
+  .revolutionary-editor__title {
+    font-size: 26px;
+    line-height: 26px;
+  }
+}
+.revolutionary-editor__description {
+  margin-top: 35px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 32px;
+  text-align: center;
+  color: #323232;
+}
+@media (max-width: 480px) {
+  .revolutionary-editor__description {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+.button-wrapper {
+  margin: 15px auto 70px;
+  width: 365px;
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 480px) {
+  .button-wrapper {
+    width: 251px;
+    flex-wrap: wrap;
+  }
+}
+
+.btn {
+  height: 26px;
+  display: flex;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+}
+@media (max-width: 480px) {
+  .btn:last-child {
+    margin: 20px auto 0;
+  }
+}
+.btn-name-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 6px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(239, 239, 239) 100%);
+  border-right: 1px solid #DDDDDD;
+  cursor: pointer;
+}
+.btn-name-wrap:hover {
+  background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgb(239, 239, 239) 100%);
+}
+.btn-name {
+  margin-left: 2px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.btn-counter {
+  width: 45px;
+  font-size: 12px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*# sourceMappingURL=style.css.map */
